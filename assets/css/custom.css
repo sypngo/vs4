@@ -1,0 +1,74 @@
+.video-Slider{
+  background-color: black;
+}
+.video-Slider .item{
+  margin: 100px 20px !important;
+  color: white;
+}
+.video-Slider .item .video-container iframe{
+  width: 100%;
+}
+.logo{
+  margin-left: 0px!important;
+}
+.left-header{
+  padding: 0px!important;
+}
+.header-area .main-nav .logo{
+  width: 100%;
+}
+.left-header h3{
+  padding-top: 5px;
+}
+.left-header .title-wrapper{
+  padding: 6px 0px 0px 0px;
+}
+@media only screen and (min-device-width: 801px){
+  .header-area .main-nav .logo{
+    width: 37%;
+  }
+  .left-header h3{
+    padding-top: 10px;
+  }
+  .left-header .title-wrapper{
+    padding: 12px 3px 0px 50px;
+  }
+}
+body{
+  overflow-x: hidden;
+}
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #008080;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #008080;  /* creates padding around scroll thumb */
+}
+section{
+  margin-top: 5%!important;
+  margin-bottom: 0px!important;
+  padding: 0 1.5%;
+}
+.popup-animate-onhover {
+  transition: transform .2s; /* Animation */
+}
+
+.popup-animate-onhover:hover {
+  transform: scaleX(1.1); /* (150% zoom)*/
+}
